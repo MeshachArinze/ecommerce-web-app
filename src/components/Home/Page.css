@@ -1,0 +1,23 @@
+
+.page {
+    background: no-repeat top center #181c1f;
+}
+
+h3 {
+    color: rgb(83, 246, 235);
+}
+
+p {
+    color: aquamarine;
+}
+
+.button {
+    background-color: #09f;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    padding: .7rem 2.4rem;
+    
+}
+

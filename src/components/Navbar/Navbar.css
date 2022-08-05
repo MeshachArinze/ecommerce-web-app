@@ -1,0 +1,127 @@
+.btn-blue {
+    background-color: #09f;
+}
+
+.chev {
+    transition: all 0.5s ease;
+}
+
+.sidebar {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+    background-color: #19222a;
+    transform: translateX(-100%);
+    width: 16rem;
+    transition: all 1s ease;
+    z-index: 10;
+}
+
+.hideSideBar {
+    transform: translateX(0);
+    transition: transform 1s ease;
+}
+
+.lase {
+    opacity: 8;
+}
+
+
+.header {
+    background-color: #09f;
+    width: 100%;
+    display: flex;
+    height: 3.4rem;
+    font-size: 1.3rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sidebar ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul>li {
+    margin-left: 0;
+    padding-left: 0;
+    min-width: 15rem;
+    display: inline-block;
+    
+}
+
+.sidebar ul>li> a {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 1.05em 1em;
+    position: relative;
+    display: block;
+}
+
+.sidebar ul>li> a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: all 0.6s ease;
+}
+
+.sidebar ul>li> a > p {
+    font-size: 1.2rem;
+    padding-right: 1.5em;
+    width: 3em;
+    display: inline;
+    vertical-align: middle;
+}
+
+.sidebar ul>li> a::after {
+    content: '\f125';
+    font-family: ionicons;
+    font-size: 0.5em;
+    width: 10px;
+    color: #fff;
+    position: absolute;
+    right: 0.75em;
+    top: 45%;
+}
+
+.sidebar-nav {
+    position: fixed;
+    width: 11.5em;
+    background-color: #19222a;
+    height: 100%;
+    font-weight: 400;
+    font-size: 1.2em;
+    overflow: auto;
+    padding-bottom: 6em;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.nav_ul {
+    position: absolute;
+    background-color: #080D11;
+    z-index: 9;
+    left: 2.5em;
+    top: 0;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: all 0.5s ease;
+    width: 100%;
+}
+
+.nav_ul .b {
+    background-color: rgba(255, 255, 255, 0.05)
+}
+
+
+.sidebar ul>li:hover>.nav_ul {
+    transform: translateX(0);
+    transition: all 0.5s ease;
+}
+
+.Grid {
+    display: flex;
+    flex-wrap: wrap;
+}
